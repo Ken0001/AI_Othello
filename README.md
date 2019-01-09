@@ -42,7 +42,7 @@ function minimax(node, depth, α, β, maxPlayer)
 [Minmax with α-β pruing介紹影片](https://www.youtube.com/watch?v=zp3VMe0Jpf8)
 ### Board Grade
 > Each position on the board will have a score, which is determined by the weight. 
-> These scores are used as nodes value for the Minmax algorithm.
+ These scores are used as nodes value for the Minmax algorithm.
 
 ### Board Weight
 
