@@ -29,14 +29,16 @@ function minimax(node, depth, α, β, maxPlayer)
         foreach child of node
             v := min(v, minimax(child, depth-1, α, β, FALSE))
             α := max(α, v)
-            if β ≤ α     break
+            if β ≤ α 
+               break
         return v
     else 
         v := +∞
         foreach child of node
             v := min(v, minimax(child, depth-1, α, β, TRUE))
             β := max(β, v)
-            if β ≤ α     break
+            if β ≤ α
+               break
         return v
 ```
 [Minmax with α-β pruing介紹影片](https://www.youtube.com/watch?v=zp3VMe0Jpf8)
